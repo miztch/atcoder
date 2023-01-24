@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+m = max(a, b) - min(a, b)
+n = min(a, b)+10 - max(a, b)
+print(min(m, n))
